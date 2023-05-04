@@ -1,0 +1,84 @@
+h1{
+    text-align: center;
+    background-color: red;
+    margin: 0px;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+img{
+    width: 100%;
+    margin: auto;
+    display: inline-flex;
+    height: 85px;
+    border: transparent;
+    padding: 0px;
+    
+}
+article{
+    border: 2px solid black;
+    width: 50%;
+    margin: auto;
+    background-color:white ;    
+}
+
+aside {
+    height: 250px;
+}
+aside p {
+
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px solid black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    width: 16%;
+    height: 80px;
+    border: 0px;
+    cursor: pointer; 
+    border-radius: 30%;
+    background-color: transparent;
+}
+#menu{
+    top:31%;
+    left: 57%;
+    position: absolute;
+    transform: translate(-50% -50%);
+    font-size: 1.3em;
+    cursor: pointer;
+    display: flex;
+    padding: 10px;
+    
+}
+
+#menu button{
+    padding: 10px;
+    background-color: rgba(244, 248, 6, 0.9);
+    cursor: pointer;
+    height: 80px;
+    width: 100px;
+    margin-right: 20px;
+    position: relative;
+    top: 80%;
+    
+}
+#menu :hover  {
+    background-color: green;
+    line-height: 2em;
+}
+#depositar{
+    height: 27px;
+    width: 80px;
+    border-radius: 13px;
+    background: blue;
+    color: white;
+}
+article{
+    background-image: url(../imagens/dinheiro.jpg);
+    
+}

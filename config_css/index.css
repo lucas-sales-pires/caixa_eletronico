@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+    background-color: red;
+    margin: 0px;
+}
+body{
+    background-color: black;
+}
+img{
+    width: 100%;
+    margin: auto;
+    display: block;
+    opacity: 0.7;
+    position: relative;
+}
+article{
+    border: 2px solid black;
+    width: 50%;
+    margin: auto;
+    
+    
+}
+aside{
+    top:30%;
+    left: 58%;
+    position: absolute;
+    transform: translate(-50% -50%);
+    font-size: 1.3em;
+}
+aside p {
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px solid black;
+}
+aside p button{
+    background-color: transparent;
+    border: 0px;
+    
+    
+}
+aside p:hover {
+    background-color: gray;
+    cursor: pointer;
+    
+    
+}
+p:hover button{
+    cursor: pointer;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}

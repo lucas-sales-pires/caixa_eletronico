@@ -1,0 +1,87 @@
+h1{
+    text-align: center;
+    background-color: red;
+    margin: 0px;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+img{
+    width: 100%;
+    margin: auto;
+    display: block;
+    opacity: 0.8;
+    position: relative;
+    height: 410px;
+}
+article{
+    border: 2px solid black;
+    width: 50%;
+    margin: auto;
+    background-color:white ;    
+}
+#vsaldo{
+    top:45%;
+    left: 27%;
+    position: absolute;
+    transform: translate(-50% -50%);
+    font-size: 1.3em;
+    background-color: white;
+}
+#extrato{
+    top:2%;
+    left: 27%;
+    position: absolute;
+    transform: translate(-50% -50%);
+    font-size: 1.1em;
+    background-color: white;
+    width: 300px;
+    line-height: 1.9em;
+
+}
+#menu{
+    top:45%;
+    left: 57%;
+    position: absolute;
+    transform: translate(-50% -50%);
+    font-size: 1.3em;
+    cursor: pointer;
+    
+    
+}
+
+#menu button{
+    padding: 0px;
+    background-color: rgba(248, 6, 6, 0.907);
+    cursor: pointer;
+    
+    
+    
+}
+aside p {
+    background-color: rgb(195, 219, 211);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px solid black;
+}
+aside p button{
+    background-color: transparent;
+    border: 0px;
+    
+}
+aside p:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+p:hover button{
+    cursor: pointer;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    width: 100px;
+    height: 100px; 
+}
