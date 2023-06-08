@@ -37,7 +37,7 @@ aside p {
 aside p button{
     background-color: transparent;
     border: 0px;
-    
+    width: 90px;
     
 }
 aside p:hover {
